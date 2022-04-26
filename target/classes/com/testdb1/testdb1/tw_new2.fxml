@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1032.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.testdb1.testdb1.HelloController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="1017.0" prefWidth="1920.0" style="-fx-background-color: #E0EAFC;" VBox.vgrow="ALWAYS">
+         <children>
+            <Pane layoutY="66.0" prefHeight="1018.0" prefWidth="300.0" style="-fx-background-color: #FAFBFF;">
+               <effect>
+                  <DropShadow height="49.21" radius="25.1125" width="53.24">
+                     <color>
+                        <Color opacity="0.15267179906368256" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Text fill="#222133" layoutX="45.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Иван Иванов">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#7c7c7a" layoutX="45.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ioanivanov@dental.ru">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Label id="main_menu_l_btn" fx:id="main_menu_l_btn" layoutX="76.0" layoutY="108.0" text="Главная" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="p_search_l_btn" fx:id="p_search_l_btn" layoutX="76.0" layoutY="168.0" text="Поиск пациента" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="visit_l_btn" fx:id="visit_l_btn" layoutX="76.0" layoutY="227.0" text="Прием" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="warehouse_l_btn" fx:id="warehouse_l_btn" layoutX="76.0" layoutY="286.0" text="Склад" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="accounting_l_btn" fx:id="accounting_l_btn" layoutX="76.0" layoutY="346.0" text="Бухгалтерия" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="reg_l_btn" fx:id="reg_l_btn" layoutX="76.0" layoutY="406.0" text="Регистрация" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="staff_l_btn" fx:id="staff_l_btn" layoutX="76.0" layoutY="466.0" text="Персонал" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Home_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Search.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Order_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Arhive_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Wallet_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/User_add_alt_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@sc/ico/Group%2071.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane prefHeight="74.0" prefWidth="1920.0" style="-fx-background-color: #FAFBFF;">
+               <effect>
+                  <DropShadow height="29.79" radius="12.1975">
+                     <color>
+                        <Color opacity="0.22900763154029846" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Text fill="#7f22de" layoutX="82.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dental">
+                     <font>
+                        <Font name="Arial Bold" size="36.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </Text>
+                  <ImageView fitHeight="34.0" fitWidth="32.0" layoutX="50.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/tooth.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Text id="exit_l_btn" fill="#092c4c" layoutX="1808.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выход">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </Text>
+                  <ImageView id="exit_ico_btn" fitHeight="25.0" fitWidth="26.0" layoutX="1783.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Sign_out_squre_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="346.0" layoutY="114.0" prefHeight="877.0" prefWidth="1532.0" style="-fx-background-color: FAFBFF; -fx-background-radius: 1em;">
+               <effect>
+                  <DropShadow height="51.78" radius="27.955" width="62.04">
+                     <color>
+                        <Color opacity="0.16412213444709778" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Text fill="#092c4c" layoutX="640.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сотрудники">
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                  </Text>
+                  <MFXButton layoutX="449.0" layoutY="104.0" prefHeight="58.0" fx:id="searh_btn" prefWidth="129.0" style="-fx-background-radius: 0.5em; -fx-background-color: #2DC8A8;" text="Поиск" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.48627451062202454" green="0.9098039269447327" blue="0.8117647171020508" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.007662835249042145">
+                                 <color>
+                                    <Color red="0.48627451062202454" green="0.9098039269447327" blue="0.8117647171020508" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.4300000071525574" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXTextField floatingText="Найти..." layoutX="588.0" layoutY="103.0" prefHeight="48.0" prefWidth="353.0">
+                     <font>
+                        <Font name="Arial" size="16.0" />
+                     </font>
+                     <textFill>
+                        <Color red="0.2569600045681" green="0.09679999947547913" blue="0.4399999976158142" />
+                     </textFill>
+                  </MFXTextField>
+                  <MFXButton layoutX="955.0" layoutY="104.0" prefHeight="58.0" prefWidth="129.0" style="-fx-background-radius: 0.5em; -fx-background-color: #7F22DE;" text="Фильтр" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.7584105134010315" green="0.5324074029922485" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.007662835249042145">
+                                 <color>
+                                    <Color red="0.7584105134010315" green="0.5324074029922485" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.4300000071525574" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <TableView layoutX="26.0" fx:id="Employee" layoutY="189.0" prefHeight="665.0" prefWidth="1483.0">
+                    <columns>
+                        <TableColumn prefWidth="39.0" fx:id="ID" text="ID" />
+                        <TableColumn prefWidth="111.0" fx:id="dob" text="Дата Рождения" />
+                        <TableColumn prefWidth="75.0" fx:id="email" text="Email" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

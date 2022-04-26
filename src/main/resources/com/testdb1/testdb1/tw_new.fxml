@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1032.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.testdb1.testdb1.HelloController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="1017.0" prefWidth="1920.0" style="-fx-background-color: #E0EAFC;" VBox.vgrow="ALWAYS">
+         <children>
+            <Pane layoutY="66.0" prefHeight="1018.0" prefWidth="300.0" style="-fx-background-color: #FAFBFF;">
+               <effect>
+                  <DropShadow height="49.21" radius="25.1125" width="53.24">
+                     <color>
+                        <Color opacity="0.15267179906368256" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Text fill="#222133" layoutX="45.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Иван Иванов">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#7c7c7a" layoutX="45.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ioanivanov@dental.ru">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Label id="main_menu_l_btn" fx:id="main_menu_l_btn" layoutX="76.0" layoutY="108.0" text="Главная" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="p_search_l_btn" fx:id="p_search_l_btn" layoutX="76.0" layoutY="168.0" text="Поиск пациента" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="visit_l_btn" fx:id="visit_l_btn" layoutX="76.0" layoutY="227.0" text="Прием" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="warehouse_l_btn" fx:id="warehouse_l_btn" layoutX="76.0" layoutY="286.0" text="Склад" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="accounting_l_btn" fx:id="accounting_l_btn" layoutX="76.0" layoutY="346.0" text="Бухгалтерия" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="reg_l_btn" fx:id="reg_l_btn" layoutX="76.0" layoutY="406.0" text="Регистрация" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Label id="staff_l_btn" fx:id="staff_l_btn" layoutX="76.0" layoutY="466.0" text="Персонал" textFill="#092c4c">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Home_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Search.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Order_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Arhive_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Wallet_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/User_add_alt_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="43.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ico/Group%2071.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane prefHeight="74.0" prefWidth="1920.0" style="-fx-background-color: #FAFBFF;">
+               <effect>
+                  <DropShadow height="29.79" radius="12.1975">
+                     <color>
+                        <Color opacity="0.22900763154029846" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Text fill="#7f22de" layoutX="82.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dental">
+                     <font>
+                        <Font name="Arial Bold" size="36.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </Text>
+                  <ImageView fitHeight="34.0" fitWidth="32.0" layoutX="50.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/tooth.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Text id="exit_l_btn" fill="#092c4c" layoutX="1808.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выход">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </Text>
+                  <ImageView id="exit_ico_btn" fitHeight="25.0" fitWidth="26.0" layoutX="1783.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../sc/ico/Sign_out_squre_fill.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="563.0" layoutY="201.0" prefHeight="683.0" prefWidth="1144.0" style="-fx-background-color: FAFBFF; -fx-background-radius: 1em;">
+               <effect>
+                  <DropShadow height="51.78" radius="27.955" width="62.04">
+                     <color>
+                        <Color opacity="0.16412213444709778" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <MFXButton id="warehouse_btn" fx:id="warehouse_btn" layoutX="122.0" layoutY="120.0" prefHeight="190.0" prefWidth="190.0" rippleAnimateShadow="true" style="-fx-background-color: #6CACE4; -fx-background-radius: 1em;" text="Склад" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" focusAngle="-100.01" radius="0.2011494252873563">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.42719998955726624" green="0.6817399859428406" blue="0.8899999856948853" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color red="0.42719998955726624" green="0.6817399859428406" blue="0.8899999856948853" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.27911687673923724">
+                                 <color>
+                                    <Color red="0.4274509847164154" green="0.6823529601097107" blue="0.8901960849761963" opacity="0.6600000262260437" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.7390530365035193">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.4000000059604645" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.3962595462799072" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXButton id="patient_search_btn" fx:id="patient_search_btn" layoutX="357.0" layoutY="120.0" prefHeight="190.0" prefWidth="190.0" style="-fx-background-color: #FFAD3D; -fx-background-radius: 1em;" text="Поиск пациента" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9868420958518982" green="0.6186038255691528" blue="0.13706140220165253" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color red="0.9868420958518982" green="0.6186038255691528" blue="0.13706140220165253" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.7685996071370108">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.550000011920929" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.5534350872039795" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXButton id="visit_btn" fx:id="visit_btn" layoutX="589.0" layoutY="120.0" prefHeight="190.0" prefWidth="190.0" style="-fx-background-color: #6964DE; -fx-background-radius: 1em;" text="Прием" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.4117647111415863" green="0.3921568691730499" blue="0.8705882430076599" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color red="0.4117647111415863" green="0.3921568691730499" blue="0.8705882430076599" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.7685996071370108">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.550000011920929" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.5534350872039795" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXButton id="accounting_btn" fx:id="accounting_btn" layoutX="831.0" layoutY="120.0" prefHeight="190.0" prefWidth="190.0" style="-fx-background-color: #2193B0; -fx-background-radius: 1em;" text="Бухгалтерия" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.13109999895095825" green="0.578220009803772" blue="0.6899999976158142" opacity="0.9045801758766174" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.17175573110580444" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXButton id="patient_reg_btn" fx:id="patient_reg_btn" layoutX="122.0" layoutY="373.0" prefHeight="190.0" prefWidth="190.0" style="-fx-background-color: #E45DFF; -fx-background-radius: 1em;" text="Регистрация" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8941176533699036" green="0.364705890417099" blue="1.0" opacity="0.8999999761581421" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.17175573110580444" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXButton id="staff_btn" fx:id="staff_btn" layoutX="357.0" layoutY="373.0" prefHeight="190.0" prefWidth="190.0" style="-fx-background-color: #EC6F66; -fx-background-radius: 1em;" text="Персонал" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9254902005195618" green="0.43529412150382996" blue="0.4000000059604645" opacity="0.8999999761581421" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.17175573110580444" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXButton layoutX="589.0" layoutY="373.0" prefHeight="190.0" prefWidth="190.0" style="-fx-background-color: #8F94FB; -fx-background-radius: 1em;" text="Кнопка" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.5607843399047852" green="0.5803921818733215" blue="0.9843137264251709" opacity="0.8999999761581421" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color red="0.5607843399047852" green="0.5803921818733215" blue="0.9843137264251709" opacity="0.8999999761581421" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.17175573110580444" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <MFXButton layoutX="831.0" layoutY="373.0" prefHeight="190.0" prefWidth="190.0" style="-fx-background-color: #DCE35B; -fx-background-radius: 1em;" text="Кнопка" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <rippleColor>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.2">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8627451062202454" green="0.8901960849761963" blue="0.35686275362968445" opacity="0.8999999761581421" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color red="0.8627451062202454" green="0.8901960849761963" blue="0.35686275362968445" opacity="0.8999999761581421" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.17175573110580444" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </rippleColor>
+                  </MFXButton>
+                  <Text fill="#092c4c" layoutX="510.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Меню">
+                     <font>
+                        <Font name="Arial" size="46.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
